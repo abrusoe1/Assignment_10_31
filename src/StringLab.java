@@ -94,9 +94,17 @@ public class StringLab {
 		String sc1 = scnr.nextLine();
 		//System.out.println();  /*This line and the next two are because the instructions say two strings in some methods
 		//*rather than just one plus a second scanner in the function*/
-//		System.out.print("Some functions in this program require two strings, please enter another just in case: ");
-//		String sc2 = scnr.next();
-			afterMath(sc1);
+		System.out.print("Some functions in this program require two strings, please enter another just in case: ");
+		String sc2 = scnr.nextLine();
+		
+		capitalize(sc1);
+		wheresWaldo(sc1);
+		firstThingsFirst(sc1, sc2);
+		reverse(sc1);
+		soLong(sc1, sc2);
+		afterMath(sc1);
+		letterize(sc1);
+		
 //If doing a switch statement, may be possible to only request sc2 on fTF and sL with an if statement after
 //the choice of which method to run is put in
 	}
